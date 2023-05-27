@@ -1,10 +1,47 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: block;
+}
+
 .container {
-    background-image: url("../imagens/naruto.webp");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;    
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    
 
 
+}
+
+#btn-voltar{
     flex-grow: 1;
+    padding: 100px 32px; 
+}
 
+#btn-voltar a{
+    color: aliceblue;
+    background-color: rgb(10, 122, 75);
+    padding: 12px 32px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+
+#texto{
+    background-color: rgba(37, 37, 37, 0.849);
+    color: aliceblue;
+    flex-grow: 1;
+    padding: 100px 32px;
+    font-size: 1.2rem;
+
+}
+
+#texto h1{
+    font-size: 3rem;
+    text-transform: uppercase;
 }
