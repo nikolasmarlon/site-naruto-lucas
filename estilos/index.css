@@ -1,0 +1,82 @@
+body, a{
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: block;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.coluna{
+    min-height: 100vh;
+    text-decoration: none;
+}
+
+
+#naruto {
+    background-image: url("../imagens/naruto.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+
+
+    flex-grow: 1;
+
+}
+
+.coluna h1{
+    opacity: 0;
+    color: rgb(231, 233, 233);
+    background-color: rgba(53, 52, 51, 0.712);
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+
+    
+    
+}
+
+.coluna:hover h1{
+    opacity: 1;
+}
+
+#kakashi {
+    background-image: url("../imagens/kakashi.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    flex-grow: 1;
+
+}
+
+#sakura {
+    background-image: url("../imagens/sakura.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    flex-grow: 1;
+
+}
+
+#sasuke {
+    background-image: url("../imagens/sasuke.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    flex-grow: 1;
+
+}
