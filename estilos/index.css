@@ -79,3 +79,23 @@ body, a{
     flex-grow: 1;
 
 }
+
+@media only screen and (max-width: 600px){
+        #container{
+        display: flex;
+        flex-direction: column; 
+        max-height: 100vh;  
+
+    }
+
+    .coluna{
+    min-height: 25%;
+    text-decoration: none;
+}
+
+.coluna h1{
+    opacity: 1;
+}
+
+
+}
